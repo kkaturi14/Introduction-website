@@ -1,0 +1,109 @@
+body{
+    background-color: aliceblue;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+    align-self: center;
+    margin:0;
+    margin-left: 15px;
+}
+ul{
+    margin:0;
+}
+.site-name{
+    margin:0;
+    font-family: "yg-jalnan", sans-serif;
+    font-size: 40px;
+}
+.nav-menu{
+    font-family: "yg-jalnan", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(122, 122, 240);
+    transition: 0.3s;
+}
+.dashboard{
+    font-family: "yg-jalnan", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    align-self: center;
+    text-align: center;
+    line-height: 250%;
+}
+.sample:hover{
+    background-color: transparent;
+    color: rgb(122, 122, 240);
+    -webkit-text-storke: 1px black;
+    transition: none;
+}
+.highlight:hover{
+    background-color: aliceblue;
+    transition: none;
+}
+.recent-menu{
+    font-family: "yg-jalnan", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(109, 7, 109);
+
+    display: inline;
+    align-self: flex-end;
+    margin-top: 50px;
+}
+.recent-works{
+    font-family: "yg-jalnan", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(122, 122, 240);
+    text-align: center
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 100px 100px;
+}
+#profile-picture{
+    width: 400px;
+    margin-right: 60px;
+}
+
+.introduction>h2{
+    margin-left: 80px;
+    margin-top: -14px;
+    font-family: "yg-jalnan", sans-serif;
+    font-size: 50px;
+}
+.introduction>p{
+    font-family: "yg-jalnan", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 80px;
+
+    margin-bottom: 40px;
+}
